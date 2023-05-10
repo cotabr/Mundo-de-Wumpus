@@ -3,7 +3,7 @@
 <figure>
 <center>
 <img src='https://drive.google.com/uc?export=view&id=1lkwk72OaNdnkYdiHDC1K3PTNcsktZ-GC' width="600" />
-<figcaption>Etapa 1.</figcaption></center>
+</center>
 </figure>
 
 ## **Primeiro ambiente gerado**
