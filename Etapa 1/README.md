@@ -8,6 +8,8 @@
 
 ## **Primeiro ambiente gerado**
 
+O primeiro ambiente gerado foi uma matriz três por três 
+
 [Protótipo](https://github.com/cotabr/Mundo-de-Wumpus/blob/main/Etapa%201/ambiente3x3)
 
 ## **Ambiente para qualquer tamanho**
