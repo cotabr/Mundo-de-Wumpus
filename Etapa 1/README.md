@@ -8,7 +8,7 @@
 
 ## **Primeiro ambiente gerado**
 
-</p ALIGN=justify >O sistema gerado inicialmente é um ambiente composto por uma matriz de três por três, contendo dois espaços vazios, um wumpus e um tesouro. Embora tenha funcionado bem como protótipo, é importante salientar que sua capacidade ainda é limitada. Com isso em mente, procurou-se criar um ambiente capaz de se adaptar a diferentes tamanhos.</p>
+<p ALIGN=justify >O sistema gerado inicialmente é um ambiente composto por uma matriz de três por três, contendo dois espaços vazios, um wumpus e um tesouro. Embora tenha funcionado bem como protótipo, é importante salientar que sua capacidade ainda é limitada. Com isso em mente, procurou-se criar um ambiente capaz de se adaptar a diferentes tamanhos.</p>
 
 [Protótipo](https://github.com/cotabr/Mundo-de-Wumpus/blob/main/Etapa%201/ambiente3x3)
 
