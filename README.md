@@ -16,13 +16,7 @@
 
 Projeto para obtenção de nota parcial na disciplina de Inteligência Computacional.
 
-## **ETAPA 1**
-
-<figure>
-<center>
-<img src='https://drive.google.com/uc?export=view&id=1lkwk72OaNdnkYdiHDC1K3PTNcsktZ-GC' width="600" />
-<figcaption>Etapa 1.</figcaption></center>
-</figure>
+## **[ETAPA 1](https://github.com/cotabr/Mundo-de-Wumpus/blob/main/Etapa%201/README.md)**
 
 ## **ETAPA 2**
 
