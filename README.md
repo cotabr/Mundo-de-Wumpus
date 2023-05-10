@@ -20,7 +20,7 @@ Projeto para obtenção de nota parcial na disciplina de Inteligência Computaci
 
 <figure>
 <center>
-<img src='https://drive.google.com/uc?export=view&id=1lkwk72OaNdnkYdiHDC1K3PTNcsktZ-GC' width="300" />
+<img src='https://drive.google.com/uc?export=view&id=1lkwk72OaNdnkYdiHDC1K3PTNcsktZ-GC' width="600" />
 <figcaption>Etapa 1.</figcaption></center>
 </figure>
 
@@ -28,7 +28,7 @@ Projeto para obtenção de nota parcial na disciplina de Inteligência Computaci
 
 <figure>
 <center>
-<img src='https://drive.google.com/uc?export=view&id=1EoFJfMuvUNYNsFybpXBKaqlrBpadyyxQ' width="300"  />
+<img src='https://drive.google.com/uc?export=view&id=1EoFJfMuvUNYNsFybpXBKaqlrBpadyyxQ' width="600"  />
 <figcaption>Etapa 2.</figcaption></center>
 </figure>
 
@@ -36,6 +36,6 @@ Projeto para obtenção de nota parcial na disciplina de Inteligência Computaci
 
 <figure>
 <center>
-<img src='https://drive.google.com/uc?export=view&id=1ybYqtU11zi7dvnTamWZaMzvdA9hh9MWa' width="300"  />
+<img src='https://drive.google.com/uc?export=view&id=1ybYqtU11zi7dvnTamWZaMzvdA9hh9MWa' width="600"  />
 <figcaption>Etapa 3.</figcaption></center>
 </figure>
