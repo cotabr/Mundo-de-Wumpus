@@ -1,0 +1,50 @@
+import random
+import numpy as np
+
+# O número de buracos, Wumpus e tesouro é definido pelas variáveis num_pits, num_wumpus e num_treasure, respectivamente.
+
+# Define o tamanho da matriz e a quantidade de cada elemento:
+
+# Tamanho da matriz:
+size = 6 
+
+# Quantidade de buracos
+num_pits = 7 
+
+# Quantidade de Wumpus:
+num_wumpus = 3 
+
+# Quantidade de tesouros:
+num_treasure = 1 
+
+# O número -1 representa um buraco, o -2 representa o Wumpus e o 1 representa o tesouro.
+
+# A posição dos buracos é definida por um loop que seleciona uma posição aleatória na matriz e atribui o valor -1 àquela posição. 
+
+# A posição do Wumpus é definida de forma semelhante, mas é selecionada apenas se a posição não contiver um buraco.
+
+# A posição do tesouro é definida da mesma forma, mas é selecionada apenas se a posição não contiver um buraco ou o Wumpus.
+
+# Cria a matriz preenchida com zeros
+matrix = np.array([[0 for _ in range(size)] for _ in range(size)])
+
+# Define a posição aleatória dos buracos
+for _ in range(num_pits):
+    row, col = random.randrange(size), random.randrange(size)
+    matrix[row][col] = -1  # -1 representa um buraco
+
+# Define a posição aleatória do Wumpus
+while True:
+    row, col = random.randrange(size), random.randrange(size)
+    if matrix[row][col] != -1:
+        matrix[row][col] = -2  # -2 representa o Wumpus
+        break
+
+# Define a posição aleatória do tesouro
+while True:
+    row, col = random.randrange(size), random.randrange(size)
+    if matrix[row][col] not in [-1, -2]:
+        matrix[row][col] = 1  # 1 representa o tesouro
+        break
+
+print(matrix)
