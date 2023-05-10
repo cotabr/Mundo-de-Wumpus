@@ -6,6 +6,8 @@ As regras gerais para um ambiente 3 por 3 foram criadas em uma [tabela](https://
 - Percepções: fedor, brisa, brilho e grito; e
 - Ações: norte, sul, leste, oeste, atirar e pegar.
 
+## **Conjunto de regras definidas**
+
 **[Regras para a casa 00](https://github.com/cotabr/Mundo-de-Wumpus/blob/main/Etapa%202/Ambiente%203X3%20-%20Regras/casa-00.csv)**
 
 **[Regras para a casa 01](https://github.com/cotabr/Mundo-de-Wumpus/blob/main/Etapa%202/Ambiente%203X3%20-%20Regras/casa-01.csv)**
