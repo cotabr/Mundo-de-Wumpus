@@ -1,6 +1,8 @@
 import numpy as np
 import random
 
+size = 3 
+
 # cria uma matriz 3x3
 matrix = np.array([['Livre', 'Livre', 'Wumpus'],
                    ['Buraco', 'Buraco', 'Ouro'],
@@ -24,4 +26,30 @@ for i in range(matrix.shape[0]):
             matrix[i][j] = elementos[posicao]
             posicao += 1
 
+def percepcoes(matrix, agent_pos):
+    percepcoes = ['Desconhecido'] * 4
+
+    # Verifica elemento acima
+    if agent_pos[0] > 0:
+        percepcoes[0] = matrix[agent_pos[0]-1][agent_pos[1]]
+
+    # Verifica elemento abaixo
+    if agent_pos[0] < matrix.shape[0]-1:
+        percepcoes[1] = matrix[agent_pos[0]+1][agent_pos[1]]
+
+    # Verifica elemento à esquerda
+    if agent_pos[1] > 0:
+        percepcoes[2] = matrix[agent_pos[0]][agent_pos[1]-1]
+
+    # Verifica elemento à direita
+    if agent_pos[1] < matrix.shape[1]-1:
+        percepcoes[3] = matrix[agent_pos[0]][agent_pos[1]+1]
+
+    return percepcoes
+
 print(matrix)
+
+print('\n')
+
+print(percepcoes(matrix, (size-1, 0)))
+
