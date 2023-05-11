@@ -1,21 +1,18 @@
-# Bibliotecas
 import random
 import numpy as np
-
-# Cria uma matriz 3x3
+# cria uma matriz 3x3
 matrix = np.array([['Livre', 'Livre', 'Wumpus'],
        ['Buraco', 'Buraco', 'Ouro'],
-       ['Livre', 'Livre', 'Livre']])
+       ['Agente', 'Livre', 'Livre']])
 
-# Define a posição do elemento que será mantido constante
+# define a posição do elemento que será mantido constante
 const_row = 2  # linha 3
 const_col = 0  # coluna 1
 def amb1(matrix):
-
-  # Cria uma cópia da matriz original
+  # cria uma cópia da matriz original
   shuffled_matrix = np.array([row[:] for row in matrix])
 
-  # Embaralha a cópia da matriz, mantendo o elemento constante
+  # embaralha a cópia da matriz, mantendo o elemento constante
   for row in shuffled_matrix:
       random.shuffle(row)
   shuffled_matrix[const_row][const_col] = matrix[const_row][const_col]
