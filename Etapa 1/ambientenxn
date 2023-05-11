@@ -1,29 +1,13 @@
 import random
 import numpy as np
 
-# O número de buracos, Wumpus e tesouro é definido pelas variáveis num_pits, num_wumpus e num_treasure, respectivamente.
+size = 3 
 
-# Define o tamanho da matriz e a quantidade de cada elemento:
+num_pits = 2 
 
-# Tamanho da matriz:
-size = 6 
+num_wumpus = 1 
 
-# Quantidade de buracos
-num_pits = 7 
-
-# Quantidade de Wumpus:
-num_wumpus = 3 
-
-# Quantidade de tesouros:
 num_treasure = 1 
-
-# O número -1 representa um buraco, o -2 representa o Wumpus e o 1 representa o tesouro.
-
-# A posição dos buracos é definida por um loop que seleciona uma posição aleatória na matriz e atribui o valor -1 àquela posição. 
-
-# A posição do Wumpus é definida de forma semelhante, mas é selecionada apenas se a posição não contiver um buraco.
-
-# A posição do tesouro é definida da mesma forma, mas é selecionada apenas se a posição não contiver um buraco ou o Wumpus.
 
 # Cria a matriz preenchida com zeros
 matrix = np.array([[0 for _ in range(size)] for _ in range(size)])
@@ -49,6 +33,45 @@ while True:
 
 # Define a posição inicial do agente
 agent_pos = (size-1, 0)
+
+def get_perceptions(agent_pos, matrix):
+    perceptions = []
+    row, col = agent_pos
+    size = matrix.shape[0]
+    
+    # Percepção de brisa
+    if row > 0 and matrix[row-1][col] == -1:  # Verifica se há um buraco acima
+        perceptions.append("brisa")
+    if row < size-1 and matrix[row+1][col] == -1:  # Verifica se há um buraco abaixo
+        perceptions.append("brisa")
+    if col > 0 and matrix[row][col-1] == -1:  # Verifica se há um buraco à esquerda
+        perceptions.append("brisa")
+    if col < size-1 and matrix[row][col+1] == -1:  # Verifica se há um buraco à direita
+        perceptions.append("brisa")
+    
+    # Percepção de fedor
+    if row > 0 and matrix[row-1][col] == -2:  # Verifica se há o Wumpus acima
+        perceptions.append("fedor")
+    if row < size-1 and matrix[row+1][col] == -2:  # Verifica se há o Wumpus abaixo
+        perceptions.append("fedor")
+    if col > 0 and matrix[row][col-1] == -2:  # Verifica se há o Wumpus à esquerda
+        perceptions.append("fedor")
+    if col < size-1 and matrix[row][col+1] == -2:  # Verifica se há o Wumpus à direita
+        perceptions.append("fedor")
+    
+    # Percepção de brilho
+    if matrix[row][col] == 1:  # Verifica se há o tesouro na posição atual
+        perceptions.append("brilho")
+    
+    # Percepção de impacto
+    if matrix[row][col] == -1 or matrix[row][col] == -2:  # Verifica se há buraco ou Wumpus na posição atual
+        perceptions.append("impacto")
+    
+    return perceptions
+
+matrix[agent_pos[0]][agent_pos[1]] = 2 # 2 representa o agente
+perceptions = get_perceptions(agent_pos, matrix)
+print(perceptions)
 
 matrix[agent_pos[0]][agent_pos[1]] = 2 # 2 representa o agente
 print(matrix)
