@@ -1,4 +1,4 @@
-# **ETAPA 1**
+# **ETAPA 1 - Concluída**
 
 <figure>
 <center>
