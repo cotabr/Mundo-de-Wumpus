@@ -1,4 +1,3 @@
-
 import random
 import numpy as np
 
@@ -51,6 +50,8 @@ def get_perceptions(agent_pos, matrix):
                 perceptions.append("fedor")
             elif matrix[new_row][new_col] == 1:  # Verifica se há o tesouro
                 perceptions.append("brilho")
+            elif matrix[new_row][new_col] == 0:  # Verifica se está vazio
+                perceptions.append("vazio")
         else:
             perceptions.append("parede")  # Adiciona a percepção de parede quando fora dos limites do tabuleiro
     
