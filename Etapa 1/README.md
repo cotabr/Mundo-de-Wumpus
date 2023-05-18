@@ -16,5 +16,7 @@
 
 <p ALIGN=justify >O ambiente agora permite que os usuários definam a quantidade de buracos, wumpus e tesouros, assim como o tamanho da matriz. Assim como no protótipo, os objetos são distribuídos aleatoriamente pelo ambiente e apenas um espaço permanece constantemente livre, onde o agente iniciará o jogo. Nesta versão, o ambiente pode ser configurado em qualquer tamanho e a quantidade de objetos pode ser personalizada de acordo com as preferências do usuário.</p>
 
+<p ALIGN=justify >Além disso, cada objeto retornar para o agente uma percepção diferente, dentre elas temos: fedor (retornado pelo Wumpus), brisa (retornado pelo buraco), brilho (retornado pelo ouro), parede (retornado pelos limites do tabuleiro) e vazio (retornado pelas casa livres).</p>
+
 
 [Versão Atual - Ambiente N por N](https://github.com/cotabr/Mundo-de-Wumpus/blob/main/Etapa%201/ambientenxn)
