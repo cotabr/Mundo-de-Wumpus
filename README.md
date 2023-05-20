@@ -34,4 +34,24 @@ Acesse a etapa através deste [LINK](https://github.com/cotabr/Mundo-de-Wumpus/b
 
 ## **[ETAPA 2](https://github.com/cotabr/Mundo-de-Wumpus/blob/main/Etapa%202/README.md)** *(Andamento)*
 
+<p ALIGN=justify> Na segunda etapa do projeto, introduzimos o agente reativo, que é capaz de se mover pelo ambiente com base em um conjunto de regras predefinidas. Essas regras são projetadas para orientar o agente em sua busca pelo ouro, enquanto evita buracos e o perigoso Wumpus.</p>
+
+<p ALIGN=justify> O agente reativo é um exemplo clássico de inteligência artificial baseada em regras, em que o comportamento do agente é determinado por uma série de instruções específicas. Essas regras são criadas com base no conhecimento prévio do ambiente e em heurísticas que orientam o agente a tomar decisões.</p>
+
+<p ALIGN=justify> Ao iniciar sua jornada, o agente analisa as informações sensoriais que recebe do ambiente. Com base nesses dados, ele consulta o conjunto de regras para determinar a ação mais adequada a ser tomada. Por exemplo, se o agente detectar um cheiro forte, indicando a presença do Wumpus, ele pode decidir evitar essa direção e escolher um caminho alternativo.</p>
+
+<p ALIGN=justify> Da mesma forma, se o agente sentir uma brisa suave, sinalizando a proximidade de um buraco, ele tomará precauções e evitará se mover nessa direção. O agente reativo é projetado para ser ágil e responsivo, tomando decisões imediatas com base nas informações disponíveis.</p>
+
+<p ALIGN=justify> Essa abordagem reativa oferece uma solução simples e eficaz para a navegação do agente no ambiente do mundo de Wumpus. Embora possa não ser tão sofisticado quanto um agente com capacidade de aprendizado ou planejamento avançado, o agente reativo é capaz de realizar tarefas básicas e alcançar seu objetivo de encontrar o ouro com sucesso, enquanto evita os perigos presentes.</p>
+
+<p ALIGN=justify> Durante a etapa 2 do projeto, refinamos o conjunto de regras do agente reativo e realizamos testes para avaliar sua eficácia em diferentes cenários. Através desses experimentos, buscamos encontrar um equilíbrio entre a exploração do ambiente e a segurança do agente, garantindo que ele alcance seu objetivo sem correr riscos desnecessários.</p>
+
+<p ALIGN=justify> Na segunda etapa do projeto, enfrentamos desafios significativos relacionados à movimentação do agente e à limitação de possuir apenas uma flecha disponível. Essas dificuldades se mostraram como aspectos críticos a serem tratados, uma vez que afetam diretamente a eficiência e a segurança do agente no ambiente do mundo de Wumpus.</p>
+
+<p ALIGN=justify> A movimentação do agente exigiu uma cuidadosa abordagem, pois qualquer passo em falso poderia resultar em consequências desastrosas, como cair em um buraco ou encontrar o temível Wumpus. Nossa equipe dedicou tempo para desenvolver um conjunto de regras sólido que permitisse ao agente se movimentar com precaução, analisando os indícios e tomando decisões baseadas nas informações disponíveis. No entanto, enfrentamos desafios em otimizar a eficiência do agente ao explorar o ambiente e evitar movimentos desnecessários ou redundantes.</p>
+
+<p ALIGN=justify> Outro desafio significativo foi a limitação de apenas uma flecha disponível para o agente. Isso implica que uma vez que o agente use sua flecha, ele não terá mais a capacidade de atacar o Wumpus caso encontre essa criatura. Essa limitação adicionou uma camada extra de complexidade ao projeto, já que o agente precisava levar em consideração essa restrição ao tomar suas decisões.</p>
+
+<p ALIGN=justify> Para superar esses desafios, estamos dedicando esforços adicionais para refinar as estratégias de movimentação do agente, buscando maneiras de melhorar sua eficiência e minimizar a exposição a riscos desnecessários. Além disso, estamos explorando opções para lidar com a limitação da única flecha, considerando estratégias alternativas que possam aumentar a segurança do agente e melhorar suas chances de sucesso.</p>
+
 ## **[ETAPA 3](https://github.com/cotabr/Mundo-de-Wumpus/blob/main/Etapa%203/README.md)** *(Ainda não iniciado)*
