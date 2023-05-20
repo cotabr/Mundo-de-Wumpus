@@ -8,6 +8,8 @@ Essa configuração de tabuleiro 3 por 3, com sua combinação estratégica de b
 
 À medida que progredimos com o projeto, iremos aprimorar o agente e introduzir novas funcionalidades, visando torná-lo mais eficiente e adaptável ao ambiente. Essa primeira iteração com a tabela 3 por 3 é apenas o começo de uma jornada em busca de um agente capaz de enfrentar desafios mais complexos e se tornar cada vez mais inteligente.
 
+Acesse a [TABELA]
+
 <figure>
 <center>
 <img src='https://drive.google.com/uc?export=view&id=1EoFJfMuvUNYNsFybpXBKaqlrBpadyyxQ' width="600"  />
