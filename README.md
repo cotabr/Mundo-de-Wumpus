@@ -54,4 +54,7 @@ Acesse a etapa através deste [LINK](https://github.com/cotabr/Mundo-de-Wumpus/b
 
 <p ALIGN=justify> Para superar esses desafios, estamos dedicando esforços adicionais para refinar as estratégias de movimentação do agente, buscando maneiras de melhorar sua eficiência e minimizar a exposição a riscos desnecessários. Além disso, estamos explorando opções para lidar com a limitação da única flecha, considerando estratégias alternativas que possam aumentar a segurança do agente e melhorar suas chances de sucesso.</p>
 
+Acesse a etapa através deste [LINK](https://github.com/cotabr/Mundo-de-Wumpus/tree/main/Etapa%202).
+
+
 ## **[ETAPA 3](https://github.com/cotabr/Mundo-de-Wumpus/blob/main/Etapa%203/README.md)** *(Ainda não iniciado)*
