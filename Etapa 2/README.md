@@ -16,4 +16,6 @@ Acesse a [TABELA](https://docs.google.com/spreadsheets/d/1P9ERyc96ZGstzZdIpT79o8
 </center>
 </figure>
 
-A ideia codificada está no arquivo [Versão 0](https://github.com/cotabr/Mundo-de-Wumpus/blob/main/Etapa%202/versao_0.py).
+<p ALIGN = justify >Enfretamos algumas dificuldade em relação a movimentação do agente e a limitação da flecha do agente. Ainda estamos melhorando isso.</p>
+
+A ideia codificada atual está no arquivo [Versão 0](https://github.com/cotabr/Mundo-de-Wumpus/blob/main/Etapa%202/versao_0.py).
