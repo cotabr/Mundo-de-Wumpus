@@ -30,7 +30,7 @@ Projeto para obtenção de nota parcial na disciplina de Inteligência Computaci
 
 <p ALIGN=justify> Essa primeira etapa do projeto é apenas o começo de uma jornada emocionante na criação de ambientes personalizados no mundo de Wumpus. Com o poder de definir parâmetros e características do tabuleiro, os usuários têm a oportunidade de desafiar suas habilidades de resolução de problemas e estratégia, enquanto exploram um universo cheio de perigos e tesouros.</p>
 
-Acesse a etapa através deste [LINK](https://github.com/cotabr/Mundo-de-Wumpus/blob/main/Etapa%201/README.md)
+Acesse a etapa através deste [LINK](https://github.com/cotabr/Mundo-de-Wumpus/blob/main/Etapa%201/README.md).
 
 ## **[ETAPA 2](https://github.com/cotabr/Mundo-de-Wumpus/blob/main/Etapa%202/README.md)** *(Andamento)*
 
