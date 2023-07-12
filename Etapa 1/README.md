@@ -16,4 +16,4 @@
 
 <p ALIGN=justify >Além disso, cada objeto retornar para o agente uma percepção diferente, dentre elas temos: fedor (retornado pelo Wumpus), brisa (retornado pelo buraco) e brilho (retornado pelo ouro).</p>
 
-[`Código`](https://github.com/cotabr/Mundo-de-Wumpus/blob/main/Etapa%201/functions.py)
+[`Código de Implementação`](https://github.com/cotabr/Mundo-de-Wumpus/blob/main/Etapa%201/functions.py)
