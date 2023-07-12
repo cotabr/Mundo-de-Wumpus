@@ -152,8 +152,6 @@ for _ in range(num_jogos):
                 if has_treasure == True and agent_pos != exit_pos:
                     # Agente tem o tesouro e ainda não chegou à posição de saída
                     # Movimento em direção à posição de saída
-                    # dx = 1 if exit_pos[0] > row else -1
-                    # dy = 1 if exit_pos[1] > col else -1
                     for i in range(len(passos_agente) - 1, -1, -1):
                         row, col = passos_agente[i]
                         # Limpa a posição atual
