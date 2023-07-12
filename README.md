@@ -32,7 +32,7 @@ Projeto para obtenção de nota parcial na disciplina de Inteligência Computaci
 
 Acesse a etapa através deste [LINK](https://github.com/cotabr/Mundo-de-Wumpus/blob/main/Etapa%201/README.md).
 
-## **[ETAPA 2](https://github.com/cotabr/Mundo-de-Wumpus/blob/main/Etapa%202/README.md)** *(Andamento)*
+## **[ETAPA 2](https://github.com/cotabr/Mundo-de-Wumpus/blob/main/Etapa%202/README.md)** *(Concluída)*
 
 <p ALIGN=justify> Na segunda etapa do projeto, introduzimos o agente reativo, que é capaz de se mover pelo ambiente com base em um conjunto de regras predefinidas. Essas regras são projetadas para orientar o agente em sua busca pelo ouro, enquanto evita buracos e o perigoso Wumpus.</p>
 
@@ -57,4 +57,6 @@ Acesse a etapa através deste [LINK](https://github.com/cotabr/Mundo-de-Wumpus/b
 Acesse a etapa através deste [LINK](https://github.com/cotabr/Mundo-de-Wumpus/tree/main/Etapa%202).
 
 
-## **[ETAPA 3](https://github.com/cotabr/Mundo-de-Wumpus/blob/main/Etapa%203/README.md)** *(Ainda não iniciado)*
+## **[ETAPA 3](https://github.com/cotabr/Mundo-de-Wumpus/blob/main/Etapa%203/README.md)** *(Concluída)*
+
+<p ALIGN=justify> Foi construída uma estrutura rudimentar de memória e com base nela são definidas as ações.</p>
