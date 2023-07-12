@@ -8,7 +8,7 @@
 
 <p ALIGN = justify >À medida que progredimos com o projeto, iremos aprimorar o agente e introduzir novas funcionalidades, visando torná-lo mais eficiente e adaptável ao ambiente. Essa primeira iteração com a tabela 3 por 3 é apenas o começo de uma jornada em busca de um agente capaz de enfrentar desafios mais complexos e se tornar cada vez mais inteligente.</p>
 
-Acesse a [TABELA](https://docs.google.com/spreadsheets/d/1P9ERyc96ZGstzZdIpT79o8C-XpIPPAhLF2d93hOksVY/edit?usp=sharing).
+Acesse a [`TABELA`](https://docs.google.com/spreadsheets/d/1P9ERyc96ZGstzZdIpT79o8C-XpIPPAhLF2d93hOksVY/edit?usp=sharing).
 
 <figure>
 <center>
@@ -18,4 +18,4 @@ Acesse a [TABELA](https://docs.google.com/spreadsheets/d/1P9ERyc96ZGstzZdIpT79o8
 
 <p ALIGN = justify >Enfretamos algumas dificuldade em relação a movimentação do agente e a limitação da flecha do agente. Ainda estamos melhorando isso.</p>
 
-A ideia codificada atual está no arquivo [Código de Implementação](https://github.com/cotabr/Mundo-de-Wumpus/blob/main/Etapa%202/main.py).
+A ideia codificada atual está no arquivo [`Código de Implementação`](https://github.com/cotabr/Mundo-de-Wumpus/blob/main/Etapa%202/main.py).
