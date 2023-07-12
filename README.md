@@ -67,5 +67,5 @@ Acesse a etapa através deste [LINK](https://github.com/cotabr/Mundo-de-Wumpus/t
 
 <p ALIGN=justify> Foi adicionado algumas funcionalidades para tornar o projeto mais atrativo.</p>
 
-## **[DOCUMENTAÇÃO](https://github.com/cotabr/Mundo-de-Wumpus/blob/main/Mundo_de_Wumpus.html)
+## [DOCUMENTAÇÃO](https://github.com/cotabr/Mundo-de-Wumpus/blob/main/Mundo_de_Wumpus.html)
 
