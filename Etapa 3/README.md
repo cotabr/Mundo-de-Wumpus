@@ -10,6 +10,6 @@
 
 - Implementação de memória: Ele armazena o historico das casa visitadas e baseia sua tomada de decisão nisso.
 
-Mais informações são fornecidas na [`documentação do projeto`](https://github.com/cotabr/Mundo-de-Wumpus/blob/main/Etapa%203/main.py)
+Mais informações são fornecidas na [`documentação do projeto`](https://github.com/cotabr/Mundo-de-Wumpus/blob/main/Etapa%203/main.py).
 
 [`Código Implementado`](https://github.com/cotabr/Mundo-de-Wumpus/blob/main/Etapa%203/main.py).
