@@ -1,9 +1,10 @@
 import random
+import typing as tp
 
 import numpy as np
 
 from functions import (Memory, choose_action, generate_board, get_perceptions,
-                       print_agent_position)
+                       guardar_passos, print_agent_position)
 
 # Direções que o agente pode se mover
 
@@ -28,8 +29,9 @@ total_ouros = 0
 total_wumpus = 0
 total_vitorias = 0
 
-num_jogos = 5  # Número de vezes que o jogo será executado
+num_jogos = 3000  # Número de vezes que o jogo será executado
 
+exit_pos = (size - 1, 0)
 
 i = 0  # Contador para contabilizar o número de cada jogo
 
@@ -47,13 +49,18 @@ for _ in range(num_jogos):
     print(matrix)
 
     # Reiniciar as variáveis de estado
+
     has_treasure = False
     has_arrow = True
 
     visited_rooms = []  # Lista de salas já visitadas
 
+    passos_agente: tp.List[tp.Tuple[int, int]] = []
+
     # Loop principal do jogo
     while True:
+
+        guardar_passos(passos_agente, agent_pos)
 
         # Estratégia adotada para escolher a ação
 
@@ -141,6 +148,21 @@ for _ in range(num_jogos):
 
                 print_agent_position(agent_pos)
                 total_movimentos += 1
+
+                if has_treasure == True and agent_pos != exit_pos:
+                    # Agente tem o tesouro e ainda não chegou à posição de saída
+                    # Movimento em direção à posição de saída
+                    # dx = 1 if exit_pos[0] > row else -1
+                    # dy = 1 if exit_pos[1] > col else -1
+                    for i in range(len(passos_agente) - 1, -1, -1):
+                        row, col = passos_agente[i]
+                        # Limpa a posição atual
+                        matrix[agent_pos[0]][agent_pos[1]] = 0
+                        agent_pos = (row, col)
+                        # Define a nova posição do agente
+                        matrix[agent_pos[0]][agent_pos[1]] = 2
+                        print_agent_position(agent_pos)
+                        total_movimentos += 1
 
         # Verifica se o agente chegou à saída com o tesouro para vencer o jogo
         if has_treasure and agent_pos == (size - 1, 0):
