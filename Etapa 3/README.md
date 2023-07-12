@@ -12,4 +12,4 @@
 
 Mais informações são fornecidas na [`documentação do projeto`](https://github.com/cotabr/Mundo-de-Wumpus/blob/main/Etapa%203/main.py)
 
-[`Código Implementado`](https://github.com/cotabr/Mundo-de-Wumpus/blob/main/Etapa%203/main.py)
+[`Código Implementado`](https://github.com/cotabr/Mundo-de-Wumpus/blob/main/Etapa%203/main.py).
