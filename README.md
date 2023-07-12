@@ -63,7 +63,7 @@ Acesse a etapa através deste [LINK](https://github.com/cotabr/Mundo-de-Wumpus/t
 
 Acesse a etapa através deste [LINK](https://github.com/cotabr/Mundo-de-Wumpus/tree/main/Etapa%203)
 
-## **[BÔNUS](https://github.com/cotabr/Mundo-de-Wumpus/blob/main/Etapa%203/README.md)** 
+## **[BÔNUS](https://github.com/cotabr/Mundo-de-Wumpus/tree/main/B%C3%B4nus)** 
 
 <p ALIGN=justify> Foi adicionado algumas funcionalidades para tornar o projeto mais atrativo.</p>
 
