@@ -62,3 +62,8 @@ Acesse a etapa através deste [LINK](https://github.com/cotabr/Mundo-de-Wumpus/t
 <p ALIGN=justify> Foi construída uma estrutura rudimentar de memória e com base nela são definidas as ações.</p>
 
 Acesse a etapa através deste [LINK](https://github.com/cotabr/Mundo-de-Wumpus/tree/main/Etapa%203)
+
+## **[BÔNUS](https://github.com/cotabr/Mundo-de-Wumpus/blob/main/Etapa%203/README.md)** 
+
+<p ALIGN=justify> Foi adicionado algumas funcionalidades para tornar o projeto mais atrativo.</p>
+
